@@ -17,7 +17,7 @@ import numpy as np
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.datasets import load_files
 
-import cPickle
+import _pickle as cPickle
 from conf.configure import Configure
 
 import re
